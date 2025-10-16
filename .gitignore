@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# But keep these root files tracked
+!/.gitignore
+!/migrate_keep_notes.py
+!/README.md
+
+# Notes:
+# - Only the two files above (plus this .gitignore) will be committed.
+# - All other files and folders are ignored.
